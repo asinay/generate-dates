@@ -1,5 +1,5 @@
 # generate-dates
-## Generate Dates Utility (not an dating app!)
+## Generate Dates Utility (not a dating app!)
 This utility generates a CSV file containing dates between 1990-01-01 and 2030-12-31, along with some relevant information about each date.
 
 ## Usage
