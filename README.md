@@ -1,7 +1,12 @@
 # generate-dates
-## Generate Dates Utility
+## Generate Dates Utility (not an dating app!)
+This utility generates a CSV file containing dates between 1990-01-01 and 2030-12-31, along with some relevant information about each date.
 
-This utility generates a CSV file containing date-related information for each day from January 1st, 1990 to December 31st, 2030. The generated file includes the following fields:
+## Usage
+To use the utility, simply run the generate_dates.py script. The generated CSV file will be saved in the data subfolder. If the subfolder does not exist, it will be created.
+
+## Generated CSV
+The CSV file contains the following columns:
 
 - Day: The date in YYYY-MM-DD format
 - Year: The year of the date
@@ -13,13 +18,19 @@ This utility generates a CSV file containing date-related information for each d
 - IsHoliday: True if the day is a US federal holiday, False otherwise
 - Holiday: The name of the holiday (empty string if not a holiday)
 
-To use the utility, simply run the generate_dates.py script. The generated CSV file will be saved in the data subfolder. If the subfolder does not exist, it will be created.
+## Dependencies
 
- This utility requires the following Python packages:
+This utility requires the following Python packages:
 • csv
 • datetime
 • holidays
 • os
+
 These packages can be installed using pip:
+```bash
 pip install csv datetime holidays os
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
