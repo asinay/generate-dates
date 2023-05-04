@@ -1,6 +1,9 @@
 # generate-dates
 ## Generate Dates Utility (not a dating app!)
 This utility generates a CSV file containing dates between 1990-01-01 and 2030-12-31, along with some relevant information about each date.
+This is especially useful for InterSystems Adaptive Analytics users so they can use it in their AtScale models.
+
+Sample dates.csv file is included in the repo
 
 ## Usage
 To use the utility, simply run the generate_dates.py script. The generated CSV file will be saved in the data subfolder. If the subfolder does not exist, it will be created.
