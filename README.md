@@ -2,7 +2,7 @@
 ## Generate Dates Utility (not a dating app!)
 This utility generates a CSV file containing dates between 1990-01-01 and 2030-12-31, along with some relevant information about each date.
 
-This is especially useful for **InterSystems Adaptive Analytics** users, because **AtScale** requires you to have an independent dates table, in order to use dates in your AtScale models.
+This is especially useful for **InterSystems Adaptive Analytics** users because **AtScale** requires an independent dates table to use dates in your AtScale models.
 
 Sample dates.csv file is included in the repo, you can simply download it if the date range and additional columns are good enough for you.  
 
